@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './commonResource/css/styles.css'
+import "./commonResource/css/bootstrap.css";
 
-function App() {
+import Header from './commonResource/Header/Header';
+import Mainall from "./commonResource/main body/mainall";
+import Footer from "./commonResource/Footer";
+
+ function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Mainall />
+      <Footer/>
     </div>
   );
 }
