@@ -27,6 +27,7 @@ function Footer() {
               <a
                 href="https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 Customer Agreement
               </a>
